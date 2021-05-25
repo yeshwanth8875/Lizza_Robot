@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Aleena*
+`Hellow My name is` *Lizza*
 `I'm here to help you to make your group managment task easier! TAP` *Commands* `Use buttons given below to know more about me.` 
 """
 
@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(
             text="💾 DEV", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/unitedbotsupport"
+            text="👥 SUPPORT", url="https://t.me/https://t.me/Lizzasupport"
         ),
     ],
 ]
@@ -381,7 +381,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Aleena* THIS BOT CURRENTLY A CLOSED SOURCE CONATCT DEV FOR REPO
+            text=""" Hi..🤗 I'm *Lizza* THIS BOT CURRENTLY A CLOSED SOURCE CONATCT DEV FOR REPO
                  \nHere is the [DEV](https://t.me/esto_420) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
